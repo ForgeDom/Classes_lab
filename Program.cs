@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Classes_lab.Classes;
 
-namespace Classes_Lab.Classes
+namespace Classes_lab
 {
-    internal class Multiplier 
-    { 
-    
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+        }
     }
 }
