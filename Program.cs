@@ -6,6 +6,10 @@ namespace Classes_lab
     {
         static void Main(string[] args)
         {
+            City city = new City();
+            city.Input();
+            Console.WriteLine("\nCity informatio:");
+            city.DisplayData();
         }
     }
 }
