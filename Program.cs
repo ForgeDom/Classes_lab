@@ -6,6 +6,13 @@ namespace Classes_lab
     {
         static void Main(string[] args)
         {
+            Subhelper employee = new Subhelper();
+
+            Console.WriteLine("Please enter employee details:");
+            employee.Input();
+
+            Console.WriteLine("\nEmployee details:");
+            employee.Display();
         }
     }
 }
